@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int cyear=2021,uyear,num,mul,dat,mon,age;
+clrscr();
+printf("Program to calculate user's age");
+printf("\n note: enter everything correctly or the calculation will show different anwser");
+printf("\n enter your birth year= ");
+scanf("%d",&uyear);
+printf("\n enter any number to add= ");
+scanf("%d",&num);
+printf("\n enter any number to multiply it = ");
+scanf("%d",&mul);
+printf("\n enter your birth month to add= ");
+scanf("%d",&mon);
+printf("\n enter birth date to devide= ");
+scanf("%d",&dat);
+age=cyear-uyear;
+printf("\n your age is= %d",age);
+
+getch();
+}
